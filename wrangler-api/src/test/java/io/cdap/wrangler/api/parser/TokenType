@@ -1,0 +1,12 @@
+package io.cdap.wrangler.api.parser;
+
+public enum TokenType {
+    COLUMN_NAME,
+    LITERAL,
+    EXPRESSION,
+    REGEX,
+    FUNCTION,
+    IDENTIFIER,
+    BYTE_SIZE,
+    TIME_DURATION
+}
